@@ -36,6 +36,7 @@ void ticTac::addMove(string r, string c ) {
         cout << "That is not an open spot. Please try again." << endl << endl;
         printBoard();
         dialogue();
+        return;
     }
     board[row][col] = "O";  // This will add the human's move.
     

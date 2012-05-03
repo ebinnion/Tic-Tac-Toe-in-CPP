@@ -130,7 +130,7 @@ void ticTac::dialogue() {
     }
     cout << "Now tell me which column. Use L for left, M for middle, or R for right followed by enter." << endl << endl;
     cin >> c; 
-    while (c!= "T=L" && c != "l" && c != "M" && c!= "m" && c != "R" && c != "r") {
+    while (c!= "L" && c != "l" && c != "M" && c!= "m" && c != "R" && c != "r") {
         cout << "Ooops. Be sure that you are entering L for left, M for middle, and R for right. Then press enter please." << endl << endl;
         cin >> c;
     }
